@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right,rgba(255,220,171,1), rgba(171,107,46,1) );
+}
+
+
+
+.header__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.header__nav__logo{
+    width: 15vw;
+    height: 25vh;
+}
+
+.header__nav__menu{
+    width: 90vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:end;
+    font-family: 'IM Fell DW Pica SC';
+    list-style: none;
+    
+    text-decoration: none;
+   
+}
+
+.header__nav__menu__pages{
+    text-decoration: none;
+    color: #38220d;
+    font-size: 1.8rem;
+    
+}
+
+.header__nav__menu__pages:hover{
+    color: rgb(172,57,3);
+    font-size: 1.9rem;
+}
+
+.header__nav__menu__socialIcons{
+    border: solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    list-style: none;
+    width: 100px;
+    height: 50px;
+      
+}
+
+#tiktokIcon {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin-top: 15vh;
+    margin-left: 15vw;
+    text-align: left;
+    
+
+}
+
+.main__text h1{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'IM Fell DW Pica SC', serif;
+    color: #412c18;
+    width: 35vw;
+    
+    
+
+}
+
+.main__text p{
+    font-size: 1.5rem;
+    font-family: 'IM Fell Double Pica SC', serif;
+    width: 35vw;
+
+}
+
+.imagens{
+    width: 35vw;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.graocafe{
+    position: relative;
+    width: 20vw;
+    height: 30vw;
+    
+    left: -10rem;
+        
+}
+
+#imgGrao{
+
+    width: 35vw;
+    height: 50vh;
+
+}
+
+.livros{
+    width: 20vw;
+    height: 30vh;
+    margin-left: 1rem;
+    
+    object-fit: cover;
+    position: absolute;
+    top: 10rem;
+    left: 47rem;
+}
+
+#imgLivros{
+    width: 30vw;
+    height: 70vh;
+}
+
+.copoMedio{
+    width: 5vw;
+    height: 10vh;
+    margin-left: 1rem;
+    
+    object-fit: cover;
+    position: absolute;
+    top: 22rem;
+    left: 47rem;
+}
+
+#imgCopoMedio{
+    width: 17vw;
+    height: 43vh;
+}
+
+.copoPequeno{
+    width: 15vw;
+    height: 30vh;
+    margin-left: 1rem;
+    
+    object-fit: cover;
+    position: absolute;
+    top: 24rem;
+    left: 63rem;
+}
+
+#imgCopoPequeno{
+    width: 27vw;
+    height: 70vh;
+}
+
+
+.cafe{
+    
+    width: 15vw;
+    height: 15vw;
+    
+    margin-left: 0vw;
+    object-fit: cover;
+    
+}

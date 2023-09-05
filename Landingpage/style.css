@@ -16,6 +16,7 @@ body{
 
 
 
+
 .header__nav{
     display: flex;
     flex-direction: row;
@@ -76,7 +77,8 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 80vw;
+    width: 100%;
+    height: 100%;
     margin-top: 15vh;
     margin-left: 15vw;
     text-align: left;
@@ -98,6 +100,7 @@ body{
 }
 
 .initial_page__text p{
+    height: 10rem;
     font-size: 1.5rem;
     font-family: 'IM Fell Double Pica SC', serif;
     width: 35vw;
@@ -107,13 +110,16 @@ body{
 #grao_Cafe1{
     position: relative;
     width: 12rem;
-    left: 53rem;
-    top: -14rem;
+    left: 54rem;
+    top: -15rem;
+    z-index: -1;
 }
 
 #grao_Cafe2{
     position: relative;
     width: 10rem;
+    top: -10rem;
+    left: -25rem;
        
 }
 
@@ -121,6 +127,162 @@ body{
 #books{
     position: relative;
     width: 20rem;
-    left: 20rem;
-    top: -16rem;
+    left: 21rem;
+    top: -15rem;
+}
+
+#copo1{
+    position: relative;
+    width: 10rem;
+    top: -15rem;
+}
+
+#copo2{
+    position: relative;
+    width: 18rem;
+    top: -4rem;
+    left: -7rem;
+}
+
+#copo3{
+    position: relative;
+    width: 11rem;
+    top: -15rem;
+    left: -30rem;
+    z-index: -1;
+}
+
+.about_us{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.about_us h1{
+    font-family: 'IM Fell DW Pica SC';
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 5rem 0 2rem 15%;
+    color: rgb(175, 102, 6) ;
+
+}
+
+#about_us_p1{
+    font-size: 1.5rem;
+    font-family: 'IM Fell Double Pica SC', serif;
+    padding: 0 3rem 3rem 3rem;
+    width: 50%;
+    text-align:justify;
+}
+
+#about_us_h2_1{
+    font-family: 'IM Fell DW Pica SC';
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1rem 0 2rem 3rem;
+    color: rgb(175, 102, 6) ;
+
+}
+
+#about_us_p2{
+    font-size: 1.5rem;
+    font-family: 'IM Fell Double Pica SC', serif;
+    padding: 0 3rem 1rem 3rem;
+    width: 90%;
+    text-align:justify;
+}
+
+#about_us_p3{
+    font-size: 1.5rem;
+    font-family: 'IM Fell Double Pica SC', serif;
+    padding: 0 3rem 3rem 3rem;
+    width: 90%;
+    text-align:justify;
+}
+
+#about_us_h2_2{
+    font-family: 'IM Fell DW Pica SC';
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 5rem 5rem 1rem 50%;
+    text-align: center;
+    color: rgb(175, 102, 6) ;
+
+}
+
+#about_us_p4{
+    font-size: 1.5rem;
+    font-family: 'IM Fell Double Pica SC', serif;
+    padding: 0 2rem 1rem 50%;
+    width: 44%;
+    text-align:justify;
+    
+}
+
+#about_us_p5{
+    font-size: 1.5rem;
+    font-family: 'IM Fell Double Pica SC', serif;
+    padding: 0 3rem 1rem 50%;
+    width: 40%;
+    text-align:justify;
+}
+
+#about_us_h2_3{
+    font-family: 'IM Fell DW Pica SC';
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1rem 0 2rem 3rem;
+    color: rgb(175, 102, 6) ;
+
+}
+
+#about_us_p6{
+    font-size: 1.5rem;
+    font-family: 'IM Fell Double Pica SC', serif;
+    padding: 0 3rem 3rem 3rem;
+    width: 50%;
+    text-align:justify;
+}
+
+#about_us_h2_4{
+    font-family: 'IM Fell DW Pica SC';
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1rem 5rem 1rem 0%;
+    text-align: center;
+    color: rgb(175, 102, 6) ;
+
+}
+
+#about_us_p7{
+    font-size: 1.5rem;
+    font-family: 'IM Fell Double Pica SC', serif;
+    padding: 0 3rem 1rem 3rem;
+    width: 90%;
+    text-align:justify;
+}
+
+#about_us_p8{
+    font-size: 1.5rem;
+    font-family: 'IM Fell Double Pica SC', serif;
+    padding: 0 3rem 1rem 3rem;
+    width: 90%;
+    text-align:justify;
+}
+
+#about_us_p9{
+    font-size: 1.5rem;
+    font-family: 'IM Fell Double Pica SC', serif;
+    padding: 2rem 3rem 0 3rem;
+    
+    text-align:center;
+}
+
+#about_us_h2_5{
+    font-family: 'IM Fell DW Pica SC';
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 0 0 1rem 0%;
+    text-align: center;
+    color: rgb(224, 133, 13) ;
+
 }

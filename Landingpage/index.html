@@ -46,8 +46,47 @@
                      <img id="copo1" src="./arquivos projeto/assets/Paper Cup Mockup with Sleeves.png" alt="Copo de Café">
                      <img id="copo2" src="./arquivos projeto/assets/Paper Cup Mockup with Sleeves (1).png" alt="Copo de café">
                      <img id="copo3" src="./arquivos projeto/assets/Paper Cup Mockup.png" alt="Copo de café">
-                </div>  
-               
+                </div> 
+                <canvas width="1000" height="100"></canvas> 
+                    <script>
+
+                        var tela = document.querySelector("canvas");
+                        var pincel = tela.getContext('2d');
+                    
+                        pincel.fillStyle = 'rgb(255, 255, 255)';
+                        pincel.beginPath();
+                        pincel.moveTo(150, 0);
+                        pincel.lineTo(0, 100);
+                        pincel.lineTo(300, 100);
+                        pincel.fill();
+
+                        pincel.beginPath();
+                        pincel.moveTo(450, 0);
+                        pincel.lineTo(300, 100);
+                        pincel.lineTo(600, 100);
+                        pincel.fill();
+
+                        pincel.beginPath();
+                        pincel.moveTo(750, 0);
+                        pincel.lineTo(600, 100);
+                        pincel.lineTo(900, 100);
+                        pincel.fill();
+
+                        // pincel.beginPath();
+                        // pincel.moveTo(700, 0);
+                        // pincel.lineTo(600, 100);
+                        // pincel.lineTo(800, 100);
+                        // pincel.fill();
+
+                        // pincel.beginPath();
+                        // pincel.moveTo(900, 0);
+                        // pincel.lineTo(800, 100);
+                        // pincel.lineTo(1000, 100);
+                        // pincel.fill();
+                        
+                    
+                    </script>
+                    
             </section>
             <section class="about_us">
                 <h1>Quem somos</h1>

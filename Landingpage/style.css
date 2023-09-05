@@ -107,6 +107,11 @@ body{
 
 }
 
+.initial_page_image{
+    width: 100%;
+    height: auto;
+}
+
 #grao_Cafe1{
     position: relative;
     width: 12rem;
@@ -203,7 +208,7 @@ body{
     font-family: 'IM Fell DW Pica SC';
     font-size: 2rem;
     font-weight: 400;
-    padding: 5rem 5rem 1rem 50%;
+    padding: 2rem 5rem 1rem 50%;
     text-align: center;
     color: rgb(175, 102, 6) ;
 
@@ -230,7 +235,7 @@ body{
     font-family: 'IM Fell DW Pica SC';
     font-size: 2rem;
     font-weight: 400;
-    padding: 1rem 0 2rem 3rem;
+    padding: 2rem 0 2rem 3rem;
     color: rgb(175, 102, 6) ;
 
 }
@@ -286,3 +291,4 @@ body{
     color: rgb(224, 133, 13) ;
 
 }
+
